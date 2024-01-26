@@ -1,0 +1,82 @@
+@use "../config" as *;
+
+.c-member {
+  position: relative;
+  color: $white;
+  margin-top: 2rem;
+
+  @include media-breakpoint-up(md) {
+    margin-top: 3rem;
+  }
+
+  &__image {
+    height: 31rem;
+
+    @include media-breakpoint-up(xl) {
+      height: 41rem;
+    }
+  }
+
+  &__image img {
+    object-position: top;
+  }
+
+  &__content {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    padding: 1.5rem 3rem;
+    background-color: $deepblue;
+
+    @include media-breakpoint-up(lg) {
+      bottom: 5px;
+    }
+
+    @include media-breakpoint-up(xl) {
+      bottom: 5px;
+      padding: 1.5rem 4rem;
+    }
+
+    @include media-breakpoint-up(xxl) {
+      bottom: 0;
+    }
+
+    &--name {
+      position: relative;
+      display: flex;
+      align-items: center;
+      font-size: 1.6rem;
+      font-weight: 600;
+    }
+
+    &--position {
+      font-size: 1.4rem;
+      font-weight: 300;
+    }
+  }
+
+  &__btn {
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 6rem;
+    width: 6rem;
+    display: grid;
+    place-items: center;
+    background-color: $gold;
+    transform: scale(0);
+    transition: all 1s $ease-out;
+  }
+
+  &.slider {
+    cursor: pointer;
+  }
+
+  @media (hover: hover) {
+    &:hover {
+      .c-member__btn {
+        transform: scale(1);
+      }
+    }
+  }
+}

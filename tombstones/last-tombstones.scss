@@ -1,0 +1,19 @@
+@use "../config" as *;
+
+.b-last-tombstones {
+  padding: $p-sm;
+  margin: 4rem 0;
+
+  @include media-breakpoint-up(lg) {
+    padding: 0;
+    margin: 9rem 0;
+  }
+
+  @include media-breakpoint-up(xl) {
+    margin: 10rem 0;
+  }
+
+  &__title {
+    margin-bottom: 6rem;
+  }
+}

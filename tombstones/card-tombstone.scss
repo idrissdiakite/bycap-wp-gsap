@@ -1,0 +1,104 @@
+@use "../../config" as *;
+
+.c-card-tombstone {
+  width: 100%;
+  height: 100%;
+  border-radius: 1rem;
+  padding: 1.8rem 2rem;
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: #f4f6fb;
+  transition: all 1s $ease-out;
+  -webkit-backface-visibility: hidden;
+  -moz-backface-visibility: hidden;
+  backface-visibility: hidden;
+
+  &.front {
+    z-index: 3;
+
+    &::before {
+      content: "";
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      width: 100%;
+      height: 5.5rem;
+      background-color: $deepblue;
+      z-index: 1;
+    }
+
+    .c-card-tombstone--center {
+      text-align: center;
+    }
+  }
+
+  &.back {
+    -webkit-transform: rotateY(180deg);
+    -moz-transform: rotateY(180deg);
+    transform: rotateY(180deg);
+
+    .c-card-tombstone--center {
+      display: flex;
+      flex-direction: column;
+    }
+  }
+
+  &--top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    p {
+      margin-top: 0;
+      font-weight: 600;
+
+      @include f16;
+    }
+  }
+
+  &--center {
+    margin: auto;
+
+    &-logo,
+    &-text,
+    &-description,
+    &-link {
+      margin-bottom: 2rem;
+    }
+
+    &-logo img {
+      height: 4.5rem;
+      object-fit: contain;
+    }
+
+    &-link {
+      .button-text__wrapper {
+        color: $gold;
+      }
+
+      .button-text::before,
+      .button-text::after {
+        background-color: $gold;
+      }
+    }
+  }
+
+  &--bottom {
+    color: $white;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 1.8rem;
+    z-index: 3;
+
+    span {
+      @include media-breakpoint-up(xl) {
+        transform: scale(0);
+        transition: all 1s $ease-out;
+      }
+    }
+  }
+}
