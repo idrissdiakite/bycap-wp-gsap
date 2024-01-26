@@ -2,7 +2,8 @@
 
 ## 📍 Contexte
 
-Thème wordpress sur-mesure | Premier site développé au sein de l'agence Digital Cover (2023).
+Thème wordpress sur-mesure.  
+Premier site développé au sein de l'agence Digital Cover (2023).
 
 À partir d'une maquette (Figma), j'ai été en charge de tout le reste: intégration, développement, animations, mise en ligne.
 
@@ -36,17 +37,6 @@ Thème wordpress sur-mesure | Premier site développé au sein de l'agence Digit
 
 Exemples de blocks/composants/animations entièrement développés par mes soins:
 
-## [Équipe (modal + slider)](https://github.com/idrissdiakite/bycap-wp-gsap/tree/main/team-members)
-
-![Screenshot](https://github.com/idrissdiakite/bycap-wp-gsap/blob/main/team-members/screenshot.png)
-
-**Description** 
-
-
-<a href="https://www.youtube.com/watch?v=n8dcZ58DhBM" target="_blank">demo</a>
-
-
-
 ## [Tombstones (flip cards)](https://github.com/idrissdiakite/bycap-wp-gsap/tree/main/tombstones)
 
 ![Screenshot](https://github.com/idrissdiakite/bycap-wp-gsap/blob/main/tombstones/screenshot.png)
@@ -58,6 +48,13 @@ Pour cela, j'ai créé une card composée de deux divs: une pour le front, une p
 
 <a href="https://www.youtube.com/watch?v=IBsneJmI-bw" target="_blank">demo</a>
 
+## [Équipe (modal + slider)](https://github.com/idrissdiakite/bycap-wp-gsap/tree/main/team-members)
+
+![Screenshot](https://github.com/idrissdiakite/bycap-wp-gsap/blob/main/team-members/screenshot.png)
+
+**Description** 
+
+<a href="https://www.youtube.com/watch?v=n8dcZ58DhBM" target="_blank">demo</a>
 
 
 ## [Scroll horizontal](https://github.com/idrissdiakite/bycap-wp-gsap/tree/main/horizontal-scroll)
