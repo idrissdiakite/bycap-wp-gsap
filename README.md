@@ -15,23 +15,14 @@ Premier site développé au sein de l'agence Digital Cover (2023).
 - Javascript (ES6)
 - Scss (méthode bem)
 - Webpack
+- Wordpress (ACF + CPT UI)
+- Gitlab + FileZila + SSH + OVH
 
 **Librairies**
 - Lenis
 - Taxi
 - Gsap
 - Splitting
-
-**Wordpress**
-- ACF
-- CPT UI
-- Gravity Form
-
-**Autre(s)**
-- Gitlab
-- FileZila
-- SSH
-- OVH
 
 ## 👀 Showcase
 
