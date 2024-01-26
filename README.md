@@ -7,7 +7,7 @@ Premier site développé au sein de l'agence Digital Cover (2023).
 
 À partir d'une maquette (Figma), j'ai été en charge de tout le reste: intégration, développement, animations, mise en ligne.
 
-## ⚙ Stack
+## ⚙ Stack(s)
 
 **Développement**
 - Sage / Laravel Blade (PHP templating)
@@ -24,7 +24,7 @@ Premier site développé au sein de l'agence Digital Cover (2023).
 - Gsap
 - Splitting
 
-## 👀 Showcase
+## 🚦 Showcase
 
 Exemples de blocks/composants/animations entièrement développés par mes soins:
 
