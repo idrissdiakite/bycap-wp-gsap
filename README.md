@@ -45,6 +45,10 @@ Pour cela, j'ai créé une card composée de deux divs: une pour le front, une p
 
 **Description** 
 
+Présentation de l'équipe de Bycap sous forme de grille d'images. Lorsqu'on clique sur un collaborateur cela ouvre une modale avec à gauche la photo de ce dernier et à droite différentes informations à son sujet. La modale intègre un slider, en effet il est également possible d'afficher le collaborateur précédent/suivant lorsqu'on clique sur les flèches. Une fois ouverte, la modale (cf. **.s-team*) prend la quasi intégralité de la fenêtre avec un léger filtre sur l'arrière plan pour un meilleur rendu, grâce à la propriété css **background-color: rgba(black, 0.8)**; 
+
+La difficulté du bloc, au delà de trouver le bon timing/enchainement pour l'apparition et les changements de slide (animation réalisée avec Gsap), aura été de trouver un moyen de bloquer le scroll lorsque la modale est ouverte tout en permettant le scroll à l'intérieur de la modale. Ayant utiliser la librairie Lenis (pour le smooth scroll) sur le projet, celle ci créait un conflit et rendait le scroll dans la modale impossible, pour contourner cela j'ai du ajouter la fonction **onwheel="event.stopPropagation()** au component **slider-team** ainsi que la propriété css **overflow: auto** au bon endroit (cf. **s-team__wrapper**).
+
 <a href="https://www.youtube.com/watch?v=n8dcZ58DhBM" target="_blank">demo</a>
 
 
@@ -54,6 +58,7 @@ Pour cela, j'ai créé une card composée de deux divs: une pour le front, une p
 
 **Description** 
 
+Bloc permettant d'afficher plusieurs cards. Une fois sur la section, le scroll vertical se transform en scroll horizontal afin de faire apparaitre les cards initialement caché sur la droite grace aux propriétés css **flex**, **flex-wrap: nowrap** et **overflow-x: scroll** puis en js en appliquant un **transform: translate3d** sur le wrapper.
 
 <a href="https://www.youtube.com/watch?v=Ih7O6hxIVHA" target="_blank">demo</a>
 
@@ -65,6 +70,7 @@ Pour cela, j'ai créé une card composée de deux divs: une pour le front, une p
 
 **Description** 
 
+Bloc en 2 colonnes, à gauche une image et à droite du contenu. À cheval sur l'image, on affiche une date clé avec un effet de couleur sur la date: blanc si c'est dans l'image, bleu si c'est en dehors. Effet réalisé uniquement en css.
 
 ## 💫 Live
 
