@@ -5,13 +5,13 @@
 Thème wordpress sur-mesure.  
 Premier site développé au sein de l'agence Digital Cover (2023).
 
-À partir d'une maquette (Figma), j'ai été en charge de tout le reste: intégration, développement, animations, mise en ligne etc..
+À partir d'une maquette (Figma) réalisée par le directeur artistique, j'ai été en charge de tout le reste: mise en place du back-office (wordpress), intégration de la maquette, développement, recettage, animations, mises en ligne (preprod et prod) etc...
 
 ## ⚙ Stack(s)
 
 **Développement**
 - Sage / Laravel Blade (PHP templating)
-- Bootstrap (uniquement pour la grille - container / row / col)
+- Bootstrap (grid system - container/row/col)
 - Javascript (ES6)
 - Scss (méthode bem)
 - Webpack
