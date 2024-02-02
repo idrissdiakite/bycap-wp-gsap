@@ -72,6 +72,6 @@ Bloc permettant d'afficher plusieurs cards. Une fois sur la section, le scroll v
 
 Bloc en 2 colonnes, à gauche une image et à droite du contenu. À cheval sur l'image, on affiche une date clé avec un effet de couleur sur la date: blanc si c'est dans l'image, bleu si c'est en dehors. Effet réalisé uniquement en css.
 
-## 💫 Live
+## 🚀 Live
 
 [https://by-cap.com/](https://by-cap.com/)
